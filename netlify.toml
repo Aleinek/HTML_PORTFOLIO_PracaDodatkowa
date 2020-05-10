@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/kimjestem.html"
-  to = "/kim-jestem"
+  from = "/old-path"
+  to = "/new-path"
   status = 301
   force = false
   query = {path = ":path"}
