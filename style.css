@@ -48,14 +48,14 @@ body
 	margin: 10px;
 	width: 230px;
 	height: 142px;
-	background-color: #666666;
+	background-color: #ff9966;
 	float: left;
 	text-align: center;
 }
 
 .tile1:hover
 {
-	background-color: #555555;
+	background-color: #ff884d;
 }
 
 .tile2
@@ -63,14 +63,14 @@ body
 	margin: 10px;
 	width: 230px;
 	height: 142px;
-	background-color: #666666;
+	background-color: #ff9966;
 	float: left;
 	text-align: center;
 }
 
 .tile2:hover
 {
-	background-color: #555555;
+	background-color: #ff884d;
 }
 
 .tile3
@@ -78,14 +78,14 @@ body
 	margin: 10px;
 	width: 230px;
 	height: 142px;
-	background-color: #666666;
+	background-color: #ff9966;
 	float: left;
 	text-align: center;
 }
 
 .tile3:hover
 {
-	background-color: #555555;
+	background-color: #ff884d;
 }
 
 .tile4
