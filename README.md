@@ -1,2 +1,2 @@
-# HTML_PORTFOLIO
-My own portfolio
+#HTML_PORTFOLIO_PracaDodatkowa
+Praca Dodakowa Informatyka 2020
