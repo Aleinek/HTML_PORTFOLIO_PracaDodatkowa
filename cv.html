@@ -1,33 +1,40 @@
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
+	<!--Ustawienie jakich znaków będziemy używać i compatybilności--> 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
+	<!--Tu zmieniam tytuł strony i ikonke wszystko widoczne na pasku ze stronami-->
 	<title>Adam Kulwicki - Curriculum vitae</title>
 	<link rel="icon" href="img/cv.png"/>
 
+	<!--To pomaga w wyświetlaniu strony w przeglądarce dodaje opis pod stroną i słowa klucze-->
 	<meta name="description" content="Stworzę dla Ciebie wyjątkową stronę www! Zatrudnij programistę webowego: PHP, JavaScript, HTML, CSS." />
 	<meta name="keywords" content="zamów, stronę, tworzenie, www, programista, portfolio, php, javascript, html, css" />
 	
+	<!--Tutaj podaje pliki css odpowiedzialne za wygląd strony /style.css/ i czcionke /fontello.css/-->
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	
+	<!--Skrypt na zegarek-->
 	<script src="timer.js"></script>
 		
 </head>
 
-<body onload="odliczanie();">
+<body onload="odliczanie();"><!--onload="odliczanie(); - wywołuje zegarek-->
 	
+	<!--Główny div-->
 	<div id="container">
-	
+		<!--Ten div odpowiada za napis Adam Kulwiki w lewym górnym rogu i zegarek-->
 		<div class="rectangle">
 			<div id="logo"><a href="zatrudnij-programiste-webowego" class="tilelinkhtml5">Adam Kulwicki</a></div>
 			<div id="zegar">12:00:00</div>
 			<div style="clear: both;"></div>
 		</div>
 		
+		<!--Wszystko znajdujące się w tym divie odpowiada za 4 główne kafeklki przekierowywujące do innych podstron-->
 		<div class="square">
 			<div class="tile1">
 				<a href="kimjestem" class="tilelink"><i class="icon-user"></i><br />Kim jestem?</a>
@@ -50,6 +57,7 @@
 			</div>
 		</div>
 
+		<!--Div odpowiedzialny za zawartość kafelka pod zegarem i kafelków odpowiadających za przenoszenie na różne strony takie jak: YT, FB etc.-->
 		<div class="square">
 			<div class="tile5">
 				Curriculum vitae<br /><br />
@@ -71,6 +79,7 @@
 		</div>
 		<div style="clear: both;"></div>
 		
+		<!--Stopka z copyrightsami i emailem-->
 		<div class="rectangle">2020 &copy; Adam Kulwicki - Portfolio. Programista webowy zaprasza do współpracy!<br /> <i class="icon-mail-alt"></i> adamkulwicki@freelancer.hub.pl</div>
 	
 	</div>
